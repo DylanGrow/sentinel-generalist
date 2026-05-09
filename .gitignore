@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# Node / React
+sentinel-ui/node_modules/
+sentinel-ui/dist/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Secrets (never commit these)
+.env
+.env.local
+*.pem
+*.key
+
+# Model weights (too large for git)
+/data/
+*.bin
+*.safetensors
+*.gguf
